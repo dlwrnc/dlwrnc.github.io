@@ -65,3 +65,12 @@ p {
   grid-template-columns: 1fr 1fr;
   column-gap: 5px;
 }
+
+.homelink {
+    position:static;
+    bottom: 0; 
+    width:100%; 
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
