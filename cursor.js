@@ -1,6 +1,6 @@
 
         // <![CDATA[
-        var colour="white"; // in addition to "random" can be set to any valid colour eg "#f0f" or "red"
+        var colour="hotpink"; // in addition to "random" can be set to any valid colour eg "#f0f" or "red"
         var sparkles=50;
 
 
