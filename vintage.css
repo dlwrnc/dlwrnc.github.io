@@ -1,0 +1,78 @@
+h1 {
+    color: #ff73ec;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #ff73ec;
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: #ff73ec;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fc81ec;
+  background-color: black;
+  background-image: url('/images/tile.jpg');
+  background-repeat: repeat;
+}
+
+a:link {
+  color: #737cff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 1s ease; 
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  cursor: pointer
+}
+
+a:visited {
+  color: #4a62ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  letter-spacing: 2px; 
+background: rgb(236,59,255);
+background: linear-gradient(90deg, rgba(236,59,255,1) 0%, rgba(77,146,223,1) 51%, rgba(0,254,255,1) 100%);   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:active {
+  color: #e494ff;
+  text-decoration: none;
+} 
+
+p {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.row {
+  width: 750px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+}
+
+.homelink {
+    position:static;
+    bottom: 0; 
+    width:100%; 
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
